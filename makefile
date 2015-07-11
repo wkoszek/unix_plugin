@@ -4,7 +4,7 @@ all: unix_plugin
 CFLAGS+=-Wall -pedantic
 
 unix_plugin: unix_plugin.c
-	$(CC) $(CFLAGS) $< -o $@
+	$(CC) $(CFLAGS) $< -o $@ -ldl
 
 unix_lib.so: unix_lib.c
 	$(CC) $(CFLAGS) -shared $< -o $@
