@@ -1,7 +1,6 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <dlfcn.h>
 #include <err.h>
 
@@ -19,7 +18,7 @@ main(int argc, char **argv)
 		errx(EXIT_FAILURE, "unix_plugin usage!");
 	}
 	fname = argv[1];
-	dll = dlopen(strdup(fname), RTLD_NOW);
+	dll = dlopen(fname, RTLD_NOW);
 	if (dll == NULL) {
 		errx(EXIT_FAILURE, "dlopen()");
 	}
