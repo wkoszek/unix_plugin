@@ -15,4 +15,4 @@ tests:	unix_plugin unix_lib.so
 	diff -u test/test.t test.o
 
 clean:
-	rm -rf unix_plugin unix_lib.so
+	rm -rf unix_plugin unix_lib.so test.o
