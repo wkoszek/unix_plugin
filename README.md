@@ -19,3 +19,8 @@ To build, do:
 # How to test?
 
 	make test
+
+# Author
+
+- Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
+- [http://www.koszek.com](http://www.koszek.com)
