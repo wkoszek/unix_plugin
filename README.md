@@ -1,5 +1,7 @@
 # UNIX plugin infrastructure
 
+[![Build Status](https://travis-ci.org/wkoszek/unix_plugin.svg?branch=master)](https://travis-ci.org/wkoszek/unix_plugin)
+
 This program was meant to be used as an example on how
 plugin infrastructure works. Imagine you have a program
 such as a music player which comes as a main "infrastructure".
